@@ -74,18 +74,30 @@ this.age=MyAge;
 this.email=MyEmail
 
     }
+    aboutUser(){
+        return(
+            "mera name " + this.name + " mera age " + this.age + " mera email " + this.email
+        )
+    }
+    changeName(newName){
+        this.name=newName
+        console.log("Name change")
+    }
 }
 
 
 
+let user1=new User("Sagar","23","sagar@gmail.com")
+console.log(user1)
+
+console.log(user1.aboutUser())
+
+user1.changeName("Vivek")
 
 
+console.log(user1)
 
-
-
-
-
-
+console.log(user1.aboutUser())
 
 
 
