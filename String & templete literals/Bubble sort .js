@@ -12,3 +12,8 @@ if(arr[j] > arr[j+1]){
     console.log(i,arr)
 }
     console.log(arr)
+
+
+
+
+    
