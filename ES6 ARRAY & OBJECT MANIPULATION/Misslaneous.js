@@ -41,3 +41,51 @@ function dance (fun1){
     dance(sing)
 
 
+///////     EX-3
+
+
+
+function hello(n,fun1){
+    console.log("Number is here",n)
+    console.log("function is here",fun1)
+    fun1()
+}
+
+// let x =1000;
+// const slap = ()=>{
+//     console.log("Thapped")         /// no 3 for out
+// }
+
+hello(x,slap)
+
+hello(100,slap)
+
+hello(1000,()=>{console.log("Thapped")})
+
+
+
+
+
+
+
+
+///////////  EX 4
+
+
+
+
+
+function greetings(def){
+    def()
+}
+
+const sum = (a,b)=>{
+    console.log(a+b)
+}
+greetings(sum)
+
+
+
+
+
+
