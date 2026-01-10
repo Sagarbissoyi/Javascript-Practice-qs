@@ -42,3 +42,5 @@ let square=a=>a*a
 
 let s1=g=>g+3
 let  s2 = f =>f+15
+
+console.log(s1(10) + s2(10))
